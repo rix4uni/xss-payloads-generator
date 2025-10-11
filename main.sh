@@ -19,5 +19,8 @@ cat payloads.txt | python3 HTML-Hexadecimal-Entity-Encoding-Special-Characters.p
 echo -e "\n// Unicode-Encoded-Payloads"
 cat payloads.txt | python3 Unicode-Encoded-Payloads.py
 
+echo -e "\n// String-Concatenation"
+cat payloads.txt | python3 String-Concatenation.py
+
 # pending after when run to get better results
 # cat payloads.txt | python3 Different-Event-Handlers.py
