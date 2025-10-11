@@ -11,6 +11,7 @@ cat payloads.txt | python3 HTML-Hexadecimal-Entity-Encoding.py
 cat payloads.txt | python3 Unicode-Encoded-Payloads.py
 ```
 
+## alert(1)
 ```
 bash main.sh
 // Decimal-Encoded-Payloads
@@ -55,6 +56,7 @@ aler\u0074(1)
 \u0061\u006c\u0065\u0072\u0074(1)
 ```
 
+## confirm(1)
 ```
 bash main.sh
 // Decimal-Encoded-Payloads
@@ -107,6 +109,7 @@ confir\u006d(1)
 \u0063\u006f\u006e\u0066\u0069\u0072\u006d(1)
 ```
 
+## prompt(1)
 ```
 bash main.sh
 // Decimal-Encoded-Payloads
